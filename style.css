@@ -1,0 +1,325 @@
+/* ---------global---------- */
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 2000px;
+    margin: 0 auto;
+    padding: 1px;
+    
+
+}
+/*------------- global end ---------*/
+/* --------------header---------- */
+.heading-content {
+    width: 100%;
+    border: 1px solid black;
+    background: rgb(34, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    width: 100vw;
+    height: 60px;
+   position: fixed; 
+   z-index: 1;
+}
+.tital {
+    margin-left: 18px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+.tital span {
+    color: green;
+}
+.btn-more {
+    padding: 10px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-right: 35px;
+    background-color: rgb(255, 255, 255);
+    color: #111113;
+}
+.btn-more:hover {
+    background-color: #14c214;
+}
+/* --------heading end---- */
+/* ---------banner------ */
+.banner {
+    background-image: url(./imag/banner-bg-1-1.png);
+    height: 130vh;
+    width: 100%;
+    background-repeat: repeat;
+}
+.logo img {
+    margin: 75px;
+    padding-top: 70px;
+    width: 11%;
+
+}
+.banner-info {
+    margin-left: 60px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.banner-info h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.banner-info p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #fff;
+    padding-top: 15px;
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+.btn {
+    padding: 21px 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    transition: all 500ms ease;
+    font-family: "Outfit";
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: rgb(241, 245, 248);
+    color: #111113;
+}
+.banner-img {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    bottom: 0;
+    right: 0px;
+    box-shadow: 0px 0px 35px 0px rgba(110, 108, 112, 0.35);
+}
+.banner-img img {
+    position: absolute;
+    right: 140px;
+    bottom: auto;
+    animation: mymove 3s;
+}
+@keyframes mymove {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 200px;
+    }
+}
+.png img {
+    position: absolute;
+    display: block;
+    right: 0px;
+    bottom: -218px;
+    animation: move 4s;
+}
+@keyframes move {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 20px;
+    }
+}
+/* --------end banner--------- */
+/* -----------------featturs------------ */
+.featurs-contant {
+    height: 105vh;
+    background: #f1fcfd;
+    padding: 2.875rem 0;
+}
+.name h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111113;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.featurs-info {
+    display: flex;
+    margin: 150px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.featurs-img img {
+    display: flex;
+    border-radius: 50%;
+    margin: auto auto 37px;
+    padding: 38px;
+    object-fit: contain;
+}
+.featurs-img h1 {
+    font-size: 20px;
+    line-height: 1.7em;
+    color: #111113;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+/* -----------------end  featturs------------ */
+/* ======== creative ===============*/
+.creative {
+    padding: 7.875rem 0;
+    
+}
+.creative-contant h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111113;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    padding: 3.875rem 0;
+}
+.row {
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px;
+    width: 210vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.page-col {
+      border: 1px solid black;
+      border-radius: 11px;
+      padding: 11px;
+
+}
+.page-col img {
+    width: 395px;
+    height: 453px;
+    border-radius: 10px;
+    background-color: #030303;
+}
+.page-col img:hover {
+    opacity: 0.8;
+    
+}
+.page-col h1 {
+    padding: 2.19375rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #111113;
+    box-shadow: 0px 3px 9px 1px #111111;
+    margin-top: 9px;
+    text-align: center;
+}
+.page-col h1:hover {
+    color: red;
+}
+/* ------------end creative-------- */
+/* <!-- ------CORE------- --> */
+.CORE {
+    background-image: url(./imag/features-bg-1-1.png);
+
+}
+.CORE-contant h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111113;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    width: 215vh;
+    padding-top: 150px;
+}
+.core-row {
+    justify-content: center;
+    align-items: center;
+    width: 195vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 49px;
+    padding-right: 10px;
+    padding-left: 116px;
+}
+
+.core-col {
+    border: 1px solid black;
+    padding: 42px 24px;
+    text-align: center;
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-color: #fff;
+    transition-property: smooth;
+
+}
+.core-col:hover{
+    transform: translate(-1%, -2%) scale(1);
+}
+
+/* <!-------------end CORE----------- --> */
+/* <!-- ----- WEBSITE----- --> */
+.websit-contant{
+    background-color: #2d2d30;
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+}
+.websit-contant h1{
+    font-size: 3.4375rem;
+    line-height: 1.2727272727em;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+.websit-contant p{
+    line-height: 1.8em;
+    font-size: 1.25rem;
+    color: #fff;
+    margin: 0;
+    max-width: 784px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.4375rem;
+}
+.btw {
+    padding: 21px 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    transition: all 500ms ease;
+    font-family: "Outfit";
+    transition: 0.3s;
+}
+.btw:hover{
+    color: #111113;
+    background-color: #ffffff;
+}
+/* <!--  WEBSITE end---------- --> */
